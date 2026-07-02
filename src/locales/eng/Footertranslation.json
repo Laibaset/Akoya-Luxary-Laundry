@@ -1,0 +1,22 @@
+{
+  "brandDescription": "Luxury garment care redefined. Serving Doha's discerning clients with unparalleled quality and service.",
+  "servicesHeading": "OUR SERVICES",
+  "services": {
+    "premiumLaundry": "Premium Laundry",
+    "dryCleaning": "Dry Cleaning",
+    "steamPressing": "Steam Pressing",
+    "fragranceInfusion": "Fragrance Infusion",
+    "coutureCare": "Couture Care",
+    "vipClub": "VIP Club"
+  },
+  "contactHeading": "CONTACT US",
+  "contact": {
+    "address": "West Bay, Doha, Qatar",
+    "phone": "+974 3368 9993",
+    "email": "Akoyaluxurylaundry@gmail.com"
+  },
+  "newsletterHeading": "NEWSLETTER",
+  "newsletterDescription": "Subscribe for exclusive offers and garment care tips.",
+  "emailPlaceholder": "Your email address",
+  "subscribeButton": "Subscribe"
+}

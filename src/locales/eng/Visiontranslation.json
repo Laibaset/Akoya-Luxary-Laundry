@@ -1,0 +1,40 @@
+{
+  "vision": {
+    "heading": "Vision & Mission",
+    "brand": "Akoya Premium Laundry",
+    "tagline": "Redefining Fabric Care and Personal Luxury in Qatar",
+    "cardTitle": "Our Vision",
+    "text": "To redefine fabric care and personal luxury in Qatar through innovation, fragrance, and flawless service — making Akoya Premium Laundry the symbol of elegance and trust in every home."
+  },
+  "excellence": {
+    "heading": "Excellence in Every Detail",
+    "subtitle": "Technology, Artistry, and Care"
+  },
+  "cta": {
+    "heading": "Experience Excellence Today",
+    "button": "Book Now"
+  },
+  "mission": {
+    "text": "At Akoya Premium Laundry, we strive to offer premium laundry, delivery, and custom perfume solutions that combine technology, artistry, and care. Our mission is to transform daily routines into refined experiences through exceptional service, attention to detail, and sustainable practices.",
+    "cardTitle": "Our Mission"
+  },
+  "coreValues": {
+    "heading": "Our Core Values",
+    "excellence": {
+      "title": "Excellence",
+      "description": "Every item, every wash, every fragrance meets the highest standards."
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "We use advanced systems and smart logistics to deliver faster and cleaner results."
+    },
+    "sustainability": {
+      "title": "Sustainability",
+      "description": "We commit to eco-friendly methods and responsible operations."
+    },
+    "customerFocus": {
+      "title": "Customer Focus",
+      "description": "Your satisfaction drives everything we do."
+    }
+  }
+}

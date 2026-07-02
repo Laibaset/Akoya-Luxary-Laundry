@@ -1,0 +1,62 @@
+{
+  "slides": {
+    "slide1": {
+      "title": "Premium Garment Care",
+      "subtitle": "Experience the Akoya Difference"
+    },
+    "slide2": {
+      "title": "Luxury Laundry Services",
+      "subtitle": "For the Most Discerning Clients"
+    },
+    "slide3": {
+      "title": "Precision Fabric Care",
+      "subtitle": "Tailored to your garment needs"
+    }
+  },
+  "bookCollectionButton": "Book a Collection",
+  "sectionHeading": "Our Services",
+  "sectionSubheading": "OUR LUXURY GARMENT CARE",
+  "categories": {
+    "all": "All",
+    "dryCleaning": "Dry Cleaning",
+    "pressing": "Pressing",
+    "specialty": "Specialty",
+    "traditional": "Traditional",
+    "express": "Express",
+    "addOn": "Add‑on"
+  },
+  "products": {
+    "commonSubtitle": "Experience the Akoya Difference",
+    "commonPrice": "From 3QAR",
+    "dryCleaning": { "title": "Dry Cleaning" },
+    "executivePressing": { "title": "Executive Pressing" },
+    "coutureCare": { "title": "Coture Care" },
+    "bishtRestoration": { "title": "Bisht Restoration" },
+    "expressService": { "title": "Express Service" },
+    "fragranceInfusion": { "title": "Fragrance Infusion" },
+    "dishdasha": { "title": "Dishdasha" },
+    "childDishdasha": { "title": "Child Dishdasha" },
+    "bisht": { "title": "Bisht" },
+    "ghutra": { "title": "Ghutra" },
+    "kurta": { "title": "Kurta" },
+    "kurtaPyjama": { "title": "Kurta Pyjama (Set)" },
+    "kameez": { "title": "Kameez" },
+    "jalabiya": { "title": "Jalabiya" },
+    "abaya": { "title": "Abaya" },
+    "abayaSpecial": { "title": "Abaya Special" },
+    "hijab": { "title": "Hijab" },
+    "gentSuit": { "title": "Gent Suit" },
+    "dressShort": { "title": "Dress (Short)" },
+    "dressLong": { "title": "Dress (Long)" },
+    "overcoat": { "title": "Overcoat" },
+    "militaryUniform": { "title": "Military Uniform" },
+    "blouseSpecial": { "title": "Blouse Special" },
+    "bathrobe": { "title": "BathRobe" }
+  },
+  "orderButton": "Order",
+  "concierge": {
+    "heading": "Need Personalized Service?",
+    "description": "Our VIP concierge team is available 24/7 to handle special requests, delicate items, or bulk orders for businesses and residences.",
+    "button": "Contact Concierge"
+  }
+}

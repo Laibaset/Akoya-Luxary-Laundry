@@ -1,0 +1,35 @@
+{
+  "signatureLines": "Signature Lines",
+  "collectionName": "THE AKOYA COLLECTION",
+  "platinum": {
+    "title": "The Platinum Care",
+    "description": "Our highest tier service for your most precious garments. Hand-washed, steamed, and wrapped in protective tissue.",
+    "cta": "Discover"
+  },
+  "executive": {
+    "title": "Executive Collection",
+    "description": "Precision care for business attire. Perfect creases, stain removal, and fabric revitalization for your professional image.",
+    "cta": "Discover"
+  },
+  "couture": {
+    "title": "Couture Preservation",
+    "description": "Specialized care for designer pieces and delicate fabrics. Museum-quality cleaning to maintain texture and color integrity.",
+    "cta": "Discover"
+  },
+  "viewAllCollection": "View all Collection",
+  "washSection": {
+    "heading": "How Would You Like it Washed?",
+    "subheading": "CHOOSE YOUR EXPERIENCE"
+  },
+  "standardWash": {
+    "title": "Standard Wash",
+    "description": "Our signature 48-hour service with gentle cleaning, eco-friendly detergents, and basic folding.",
+    "price": "From 50 QAR"
+  },
+  "expressWash": {
+    "title": "Express Wash",
+    "description": "Need it fast? Get 24-hour turnaround, priority processing, and premium care.",
+    "price": "From 80 QAR"
+  },
+  "continueButton": "Continue to Garment Section"
+}

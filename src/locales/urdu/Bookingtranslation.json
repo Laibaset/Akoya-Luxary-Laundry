@@ -1,0 +1,138 @@
+{
+  "header": {
+    "brand": "آکویا پریمیم لانڈری",
+    "step": "مرحلہ 1 از 1"
+  },
+  "categorySection": {
+    "chooseServiceType": "سروس کی قسم منتخب کریں:"
+  },
+  "categories": {
+    "men": "مرد",
+    "women": "خواتین",
+    "other": "دیگر"
+  },
+  "itemsSection": {
+    "selectItemPrompt": "آئٹم کی قسم منتخب کریں، پھر سروس منتخب کریں",
+    "groupLabel": {
+      "men": "مردانہ",
+      "women": "زنانہ",
+      "other": "دیگر اشیاء"
+    },
+    "chooseServicePrompt": "اس آئٹم کے لیے سروس منتخب کریں"
+  },
+  "services": {
+    "washIron": "دھلائی اور استری",
+    "washIronPerfume": "دھلائی، استری اور خوشبو کی سہولت",
+    "dryClean": "ڈرائی کلین"
+  },
+  "items": {
+    "men": {
+      "thobe": "تھوب",
+      "bisht": "بشت",
+      "suit": "مردانہ سوٹ",
+      "ghutra": "غترہ",
+      "shirt": "قمیض",
+      "tie": "ٹائی",
+      "tshirt": "ٹی شرٹ",
+      "vest": "ویسٹ",
+      "coat": "کوٹ",
+      "pajamas": "پاجامہ",
+      "shorts": "شارٹس",
+      "trousers": "پتلون",
+      "kandura": "کندورہ",
+      "jubba": "جبہ"
+    },
+    "women": {
+      "abaya": "عبایا",
+      "dress": "ڈریس",
+      "blouse": "بلاؤز",
+      "skirt": "اسکرٹ",
+      "jacket": "جیکٹ",
+      "scarf": "اسکارف",
+      "shayla": "شیلا",
+      "jalabiya": "جلابیہ",
+      "suit_w": "زنانہ سوٹ",
+      "cardigan": "کارڈیگن",
+      "trousers_w": "پتلون",
+      "pajamas_w": "پاجامہ"
+    },
+    "other": {
+      "blanket": "کمبل",
+      "curtain": "پردہ",
+      "bedsheet": "بیڈ شیٹ",
+      "tablecloth": "میز پوش",
+      "pillow": "تکیہ کور",
+      "duvet": "لحاف",
+      "towel": "تولیہ",
+      "carpet": "قالین"
+    }
+  },
+  "addOns": {
+    "oudQuestion": "کیا آپ اپنے کپڑوں کو عود کی خوشبو دینا چاہیں گے؟",
+    "yes": "ہاں",
+    "no": "نہیں",
+    "chooseOudType": "اپنی پسندیدہ عود کی قسم منتخب کریں:",
+    "perfumeQuestion": "کیا آپ اپنے کپڑوں کو خوشبودار بنانا چاہیں گے؟",
+    "packagingQuestion": "آپ چاہیں گے کہ ہم آپ کے ملبوسات کیسے پیک کریں؟",
+    "packagingSubtext": "ہر ملبوس کے لیے الگ الگ پیکجنگ منتخب کریں",
+    "selectPackaging": "پیکجنگ منتخب کریں",
+    "giftQuestion": "کیا آپ اسے کسی دوست کو بھیجنا چاہتے ہیں؟",
+    "giftYesTitle": "ہاں",
+    "giftYesSub": "کارڈ کے ساتھ دوست کو ڈیلیور کریں",
+    "giftNoTitle": "نہیں",
+    "giftNoSub": "براہ راست آپ کو ڈیلیور کریں",
+    "friendNameLabel": "* دوست کا نام",
+    "friendNamePlaceholder": "اپنے دوست کا نام درج کریں",
+    "requiredField": "یہ خانہ لازمی ہے",
+    "cardQuestion": "❤️ کیا آپ ذاتی نوعیت کا کارڈ شامل کرنا چاہیں گے؟",
+    "fromLabel": "بھیجنے والا",
+    "fromPlaceholder": "آپ کا نام (لازمی)*",
+    "toLabel": "وصول کنندہ (اختیاری)",
+    "toPlaceholder": "وصول کنندہ کا نام (اختیاری)"
+  },
+  "oudTypes": {
+    "cambodian": {
+      "label": "پریمیم کمبوڈین عود",
+      "desc": "اصلی کمبوڈین عود جس کی خوشبو گہری اور بھرپور ہے"
+    },
+    "bokhour": {
+      "label": "بخور الدانہ",
+      "desc": "منفرد اور اصلی خوشبو کے ساتھ پریمیم بخور"
+    }
+  },
+  "packagingOptions": {
+    "plastic": {
+      "label": "پلاسٹک",
+      "sub": "مفت"
+    },
+    "premium": {
+      "label": "پریمیم فیبرک",
+      "sub": "+10 ریال"
+    },
+    "giftbox": {
+      "label": "گفٹ باکس",
+      "sub": "+4 ریال"
+    }
+  },
+  "colors": {
+    "gray": "سرمئی",
+    "cream": "کریمی",
+    "black": "سیاہ"
+  },
+  "footerNote": "اپنا مکمل آرڈر ایک ہی صفحے پر مکمل کریں: قسم، آئٹم، سروس، اضافی سہولیات، پیکجنگ اور تحفے کی تفصیلات",
+  "orderSummary": {
+    "heading": "آرڈر کا خلاصہ",
+    "serviceType": "سروس کی قسم:",
+    "garments": "ملبوسات:",
+    "incense": "بخور",
+    "packaging": "پیکجنگ:",
+    "sendToFriend": "🎁 دوست کو بھیجیں",
+    "friendsName": "دوست کا نام:",
+    "from": "بھیجنے والا:",
+    "to": "وصول کنندہ:",
+    "couponPlaceholder": "کوپن کوڈ درج کریں",
+    "applyCoupon": "کوپن لاگو کریں",
+    "finalPrice": "حتمی قیمت",
+    "bookNow": "ابھی بک کریں"
+  }
+}

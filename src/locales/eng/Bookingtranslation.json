@@ -1,0 +1,138 @@
+{
+  "header": {
+    "brand": "AKOYA PREMIUM LAUNDRY",
+    "step": "Step 1 of 1"
+  },
+  "categorySection": {
+    "chooseServiceType": "Choose Service Type:"
+  },
+  "categories": {
+    "men": "Men",
+    "women": "Women",
+    "other": "Other"
+  },
+  "itemsSection": {
+    "selectItemPrompt": "Select item type, then choose service",
+    "groupLabel": {
+      "men": "Men's",
+      "women": "Women's",
+      "other": "Other Items"
+    },
+    "chooseServicePrompt": "Choose service for this item"
+  },
+  "services": {
+    "washIron": "Washing & Ironing",
+    "washIronPerfume": "Washing, Ironing, and Perfume Services",
+    "dryClean": "Dry Clean"
+  },
+  "items": {
+    "men": {
+      "thobe": "Thobe",
+      "bisht": "Bisht",
+      "suit": "Men's Suit",
+      "ghutra": "Ghutra",
+      "shirt": "Shirt",
+      "tie": "Tie",
+      "tshirt": "T-shirt",
+      "vest": "Vest",
+      "coat": "Coat",
+      "pajamas": "Pajamas",
+      "shorts": "Shorts",
+      "trousers": "Trousers",
+      "kandura": "Kandura",
+      "jubba": "Jubba"
+    },
+    "women": {
+      "abaya": "Abaya",
+      "dress": "Dress",
+      "blouse": "Blouse",
+      "skirt": "Skirt",
+      "jacket": "Jacket",
+      "scarf": "Scarf",
+      "shayla": "Shayla",
+      "jalabiya": "Jalabiya",
+      "suit_w": "Women's Suit",
+      "cardigan": "Cardigan",
+      "trousers_w": "Trousers",
+      "pajamas_w": "Pajamas"
+    },
+    "other": {
+      "blanket": "Blanket",
+      "curtain": "Curtain",
+      "bedsheet": "Bed Sheet",
+      "tablecloth": "Tablecloth",
+      "pillow": "Pillow Cover",
+      "duvet": "Duvet",
+      "towel": "Towel",
+      "carpet": "Carpet"
+    }
+  },
+  "addOns": {
+    "oudQuestion": "Would you like your clothes to be incensed with Oud?",
+    "yes": "Yes",
+    "no": "No",
+    "chooseOudType": "Choose your preferred Oud type:",
+    "perfumeQuestion": "Would you like your clothes to be perfumed?",
+    "packagingQuestion": "How would you like us to package your garments?",
+    "packagingSubtext": "Choose packaging for each garment item individually",
+    "selectPackaging": "Select packaging",
+    "giftQuestion": "Do you want to send it to a friend?",
+    "giftYesTitle": "Yes",
+    "giftYesSub": "Deliver to friend with card",
+    "giftNoTitle": "No",
+    "giftNoSub": "Deliver to you directly",
+    "friendNameLabel": "* Friend's name",
+    "friendNamePlaceholder": "Enter your friend's name",
+    "requiredField": "This field is required",
+    "cardQuestion": "❤️ Want to include a personalized card?",
+    "fromLabel": "From",
+    "fromPlaceholder": "Your name (required)*",
+    "toLabel": "To (optional)",
+    "toPlaceholder": "Recipient's name (optional)"
+  },
+  "oudTypes": {
+    "cambodian": {
+      "label": "Premium Cambodian Oud",
+      "desc": "Authentic Cambodian oud with rich, deep aroma"
+    },
+    "bokhour": {
+      "label": "Bokhour Al Dana",
+      "desc": "Premium incense with distinctive authentic scent"
+    }
+  },
+  "packagingOptions": {
+    "plastic": {
+      "label": "Plastic",
+      "sub": "Free"
+    },
+    "premium": {
+      "label": "Premium Fabric",
+      "sub": "+10 QAR"
+    },
+    "giftbox": {
+      "label": "Gift Box",
+      "sub": "+4 QAR"
+    }
+  },
+  "colors": {
+    "gray": "Gray",
+    "cream": "Cream",
+    "black": "Black"
+  },
+  "footerNote": "Complete your full order in one page: category, item, service, add-ons, packaging, and gifting details",
+  "orderSummary": {
+    "heading": "Order Summary",
+    "serviceType": "Service Type:",
+    "garments": "Garments:",
+    "incense": "Incense",
+    "packaging": "Packaging:",
+    "sendToFriend": "🎁 Send to a Friend",
+    "friendsName": "Friend's Name:",
+    "from": "From:",
+    "to": "To:",
+    "couponPlaceholder": "Enter coupon code",
+    "applyCoupon": "Apply Coupon",
+    "finalPrice": "Final Price",
+    "bookNow": "Book Now"
+  }
+}

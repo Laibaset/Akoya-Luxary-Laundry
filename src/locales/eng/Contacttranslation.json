@@ -1,0 +1,44 @@
+{
+  "slides": {
+    "slide1": {
+      "title": "Premium Garment Care",
+      "subtitle": "Expert Cleaning for your most delicate fabrics",
+      "button": "Schdeule Pickup"
+    },
+    "slide2": {
+      "title": "Eco Conscious Cleaning",
+      "subtitle": "Sustainable methods without compromising quality",
+      "button": "Schdeule Pickup"
+    },
+    "slide3": {
+      "title": "Prcision Pressing",
+      "subtitle": "Impeccable finishes for business and formal wear",
+      "button": "Schdeule Pickup"
+    }
+  },
+  "contactInfo": {
+    "heading": "How to reach us",
+    "description": "Our concierge team is available to assist you with any inquiries about our luxury laundry services.",
+    "location": {
+      "label": "Location",
+      "value": "West Bay, Doha, Qatar"
+    },
+    "phone": {
+      "label": "Phone",
+      "value": "+974 1234 5678"
+    },
+    "email": {
+      "label": "Email",
+      "value": "info@akoyalaundry.com"
+    },
+    "followUs": "Follow Us"
+  },
+  "form": {
+    "heading": "Send us a message",
+    "namePlaceholder": "Full Name",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Message",
+    "sendButton": "Send Message",
+    "successAlert": "Message sent!"
+  }
+}

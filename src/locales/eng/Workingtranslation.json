@@ -1,0 +1,40 @@
+{
+  "bookOrder": "Book Your Order",
+  "sectionHeading": "How It Works",
+  "sectionSubheading": "SEAMLESS PICKUP PROCESS",
+  "steps": {
+    "schedule": {
+      "title": "Schedule Your Pickup",
+      "description": "Book through our app, WhatsApp, or website. We offer flexible 2-hour pickup windows.",
+      "checks": {
+        "availability": "24/7 booking availability",
+        "recurring": "Recurring pickup scheduling available"
+      }
+    },
+    "collection": {
+      "title": "Professional Collection",
+      "description": "Our uniformed valets arrive in discreet luxury vehicles with garment bags.",
+      "checks": {
+        "contactless": "Contactless pickup available",
+        "receipt": "Digital receipt provided"
+      }
+    },
+    "processing": {
+      "title": "Expert Processing",
+      "description": "Your garments receive specialized care at our state-of-the-art facility.",
+      "checks": {
+        "tracking": "Individual garment tracking",
+        "qualityControl": "Quality control at every stage"
+      }
+    },
+    "delivery": {
+      "title": "Luxury Delivery",
+      "description": "Your garments are returned freshly cleaned, pressed and wrapped in premium packaging.",
+      "checks": {
+        "contactlessDelivery": "Contactless delivery available",
+        "receipt": "Digital receipt provided"
+      }
+    }
+  },
+  "scheduleButton": "Schedule Your Pickup +"
+}

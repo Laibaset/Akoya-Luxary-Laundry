@@ -1,47 +1,56 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer"; // import your footer
-import LandingPage from "./Components/LandingPage";
-import LP from "./Components/LandingPage part2";
-import Landpag from "./Components/LandingPage Part3";
-import Lapage from "./Components/Landingpagepaart4";
-import LandingP from "./Components/LandingPagepart5";
-import AkoyaLuxuryLaundry from "./Components/Footer";
-import ServicesPage from "./Pages/Services"; // renamed to avoid conflict
+import { Provider } from "react-redux";
+import store from "./Redux/Store";
+import Navbar from "./Components/Home/Navbar";
+import Footer from "./Components/Home/Footer";
+import Swiperr from "./Components/Home/Swiperr";
+import SignatureLines from "./Components/Home/SignatureLines";
+import Landpag from "./Components/Home/Fragrance&Packaging"
+import Lapage from "./Components/Home/Working";
+import LandingP from "./Components/Home/AkoyaClub";
+import ServicesPage from "./Pages/Services";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
-import Visionandmission from "./Pages/Visionandmission"
+import Visionandmission from "./Pages/Visionandmission";
+import Booking from "./Pages/Booking";
+import ClientLogin from "./Pages/ClientLogin";
+import CreateAccount from "./Pages/CreateAccount";
+import Swiper from "swiper";
 
-const Home = () => {
-  return (
-    <>
-      <LandingPage />
-      <LP />
-      <Landpag />
-      <Lapage />
-      <LandingP />
-      <AkoyaLuxuryLaundry />
-    </>
-  );
-};
+const Home = () => (
+  <>
+    <Swiperr />
+    <SignatureLines />
+    <Landpag />
+    <Lapage />
+    <LandingP />
+  </>
+);
+
+const Layout = ({ children }) => (
+  <>
+    <Navbar />
+    {children}
+    <Footer />
+  </>
+);
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Navbar /> {/* Navbar appears on every page */}
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<ServicesPage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/vision-mission" element={<Visionandmission />} />
-      </Routes>
-      <Footer/>
-
-
-     {/* Footer appears on every page */}
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout><Home /></Layout>} />
+          <Route path="/services" element={<Layout><ServicesPage /></Layout>} />
+          <Route path="/about" element={<Layout><About /></Layout>} />
+          <Route path="/contact" element={<Layout><Contact /></Layout>} />
+          <Route path="/vision-mission" element={<Layout><Visionandmission /></Layout>} />
+          <Route path="/Booking" element={<Layout><Booking /></Layout>} />
+          <Route path="/ClientLogin" element={<ClientLogin />} />
+          <Route path="/CreateAccount" element={<CreateAccount />} />
+        </Routes>
+      </BrowserRouter>
+    </Provider>
   );
 };
 

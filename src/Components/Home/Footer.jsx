@@ -5,9 +5,12 @@ import { RiTwitterXFill } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa6";
+import { useTranslation } from "react-i18next";
 
 
 const Footer = () => {
+  const { t } = useTranslation("Footertranslation");
+
   return (
     <footer className="bg-[#1C1C1C] text-gray-300 px-12 py-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-14">
@@ -23,10 +26,7 @@ const Footer = () => {
           </div>
 
           <p className="text-sm leading-relaxed text-gray-400">
-            Luxury garment care redefined.
-            <br />
-            Serving Doha's discerning clients with
-            unparalleled quality and service.
+            {t("brandDescription")}
           </p>
 
           <div className="flex gap-4 mt-6 text-xl text-gray-400">
@@ -38,16 +38,16 @@ const Footer = () => {
 
         <div>
           <h3 className="text-[#d4af37] font-semibold mb-6 tracking-wide">
-            OUR SERVICES
+            {t("servicesHeading")}
           </h3>
           <ul className="space-y-4">
             {[
-              "Premium Laundry",
-              "Dry Cleaning",
-              "Steam Pressing",
-              "Fragrance Infusion",
-              "Couture Care",
-              "VIP Club",
+              t("services.premiumLaundry"),
+              t("services.dryCleaning"),
+              t("services.steamPressing"),
+              t("services.fragranceInfusion"),
+              t("services.coutureCare"),
+              t("services.vipClub"),
             ].map((service, index) => (
               <li
                 key={index}
@@ -63,21 +63,21 @@ const Footer = () => {
         {/* Contact */}
         <div>
           <h3 className="text-[#d4af37] font-semibold mb-6 tracking-wide">
-            CONTACT US
+            {t("contactHeading")}
           </h3>
 
           <ul className="space-y-5 text-sm">
             <li className="flex gap-3">
               <span className="text-[#d4af37]"><GrLocation /></span>
-              West Bay, Doha, Qatar
+              {t("contact.address")}
             </li>
             <li className="flex gap-3">
               <span className="text-[#d4af37]"><IoCallOutline /></span>
-              +974 3368 9993
+              {t("contact.phone")}
             </li>
             <li className="flex gap-3">
               <span className="text-[#d4af37]"><CiMail /></span>
-              Akoyaluxurylaundry@gmail.com
+              {t("contact.email")}
             </li>
           </ul>
         </div>
@@ -85,21 +85,21 @@ const Footer = () => {
         {/* Newsletter */}
         <div>
           <h3 className="text-[#d4af37] font-semibold mb-6 tracking-wide">
-            NEWSLETTER
+            {t("newsletterHeading")}
           </h3>
 
           <p className="text-sm text-gray-400 mb-6">
-            Subscribe for exclusive offers and garment care tips.
+            {t("newsletterDescription")}
           </p>
 
           <input
             type="email"
-            placeholder="Your email address"
+            placeholder={t("emailPlaceholder")}
             className="w-full px-4 py-3 bg-[#1a1a1a] border border-gray-700 rounded-md mb-4 focus:outline-none focus:border-[#d4af37]"
           />
 
           <button className="w-full bg-[#d4af37] text-black font-semibold py-3 rounded-md hover:opacity-90 transition">
-            Subscribe
+            {t("subscribeButton")}
           </button>
         </div>
 

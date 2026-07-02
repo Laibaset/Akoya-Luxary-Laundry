@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "title": "Akoya Signature Fragrances",
+    "subtitle": "Premium scents crafted to elevate your laundry experience"
+  },
+  "fragrances": {
+    "maknoun": {
+      "name": "Maknoun",
+      "description": "A luxurious fragrance that embodies the charm of a confident man. A refined blend of fresh fruits, elegant florals, and a warm base of musk and amber, leaving an unforgettable signature.",
+      "price": "7 QAR"
+    },
+    "mad": {
+      "name": "Mad",
+      "description": "A powerful masculine fragrance that radiates prestige and luxury. Its unique composition blends saffron, jasmine, and incense, with a leathery amber base for a timeless presence",
+      "price": "7 QAR"
+    },
+    "lulwa": {
+      "name": "Lulwa",
+      "description": "The fragrance of radiant femininity, combining modern freshness with timeless elegance. A stunning blend of bergamot, ginger, and patchouli with a soft musky touch, leaving a memorable sparkle.",
+      "price": "7 QAR"
+    },
+    "sadf": {
+      "name": "Sadf",
+      "description": "A refreshing fragrance for both men and women, featuring bright citrus notes, warm ginger, and ambergris for an elegant and long-lasting touch.",
+      "price": "7 QAR"
+    },
+    "addButton": "Add"
+  },
+  "packaging": {
+    "heading": "The Final Touch",
+    "subheading": "Packaging Options",
+    "includedButton": "Included",
+    "plasticWrap": {
+      "title": "Plastic Wrap",
+      "description": "Crystal-clear protective wrapping with our embossed gold seal for discreet luxury",
+      "features": {
+        "transparency": "Medical-grade transparency",
+        "antiStatic": "Anti-static interior",
+        "recyclable": "Recyclable material",
+        "tamperEvident": "Tamper-evident closure"
+      }
+    },
+    "fabricWrap": {
+      "title": "Luxury Fabric Wrap",
+      "description": "Crystal-clear protective wrapping with our embossed gold seal for discreet luxury",
+      "features": {
+        "transparency": "Medical-grade transparency",
+        "antiStatic": "Anti-static interior",
+        "recyclable": "Recyclable material",
+        "tamperEvident": "Tamper-evident closure"
+      }
+    },
+    "giftBox": {
+      "title": "Premium Gift Box",
+      "description": "Handcrafted wooden presentation case with velvet interior and scent capsule.",
+      "features": {
+        "sandalwood": "Sandalwood construction",
+        "velvetLining": "French velvet lining",
+        "scentCapsule": "Integrated scent capsule",
+        "heirloom": "Heirloom quality"
+      }
+    }
+  }
+}

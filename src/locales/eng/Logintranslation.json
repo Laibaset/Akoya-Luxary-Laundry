@@ -1,0 +1,13 @@
+{
+  "brand": "AKOYA LUXURY LAUNDRY",
+  "subtitle": "Sign in to your account",
+  "emailLabel": "Email Address",
+  "emailPlaceholder": "your@email.com",
+  "passwordLabel": "Password",
+  "passwordPlaceholder": "••••••••",
+  "rememberMe": "Remember me",
+  "forgotPassword": "Forgot password?",
+  "signInButton": "Sign in",
+  "newToAkoya": "New to AKOYA?",
+  "createAccount": "Create your account"
+}

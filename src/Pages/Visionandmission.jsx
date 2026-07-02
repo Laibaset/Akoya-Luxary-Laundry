@@ -1,175 +1,168 @@
+import { useTranslation } from "react-i18next";
 
 const Visionandmission = () => {
-    return(
+    const { t } = useTranslation("Visiontranslation");
+
+    return (
         <div>
 
-      <section className="bg-[#f5f6f8] py-16 px-6">
-  <div className="max-w-6xl top-20 relative  mx-auto text-center">
-    
-    
-    <h2 className="text-5xl font-bold text-[#0f172a]">
-      Vision & Mission
-    </h2>
+            {/* ── VISION ── */}
+            <section className="bg-[#f5f6f8] py-12 sm:py-16 px-4 sm:px-6">
+                <div className="max-w-6xl mx-auto text-center">
 
-    <p className="text-lg text-[#D0AA31] mt-3 font-medium">
-      Akoya Premium Laundry
-    </p>
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0f172a]">
+                        {t("vision.heading")}
+                    </h2>
 
-    <p className="text-gray-500 mt-3 italic">
-      Redefining Fabric Care and Personal Luxury in Qatar
-    </p>
+                    <p className="text-base sm:text-lg text-[#D0AA31] mt-3 font-medium">
+                        {t("vision.brand")}
+                    </p>
 
-    <div className="w-16 h-1 bg-[#D0AA31] mx-auto mt-4 rounded"></div>
-  </div>
+                    <p className="text-gray-500 mt-3 italic">
+                        {t("vision.tagline")}
+                    </p>
 
-  <div className="bg-white w-[790px] h-[250px] absolute right-[30px] top-[350px] rounded-2xl shadow-xl flex overflow-hidden">
-  
-  {/* Gold Vision Side */}
-  <div className="bg-[#D0AA31] w-[330px] flex items-center justify-center text-white">
-    <h3 className="text-5xl  font-bold text-center leading-tight">
-      Our <br /> Vision
-    </h3>
-  </div>
+                    <div className="w-16 h-1 bg-[#D0AA31] mx-auto mt-4 rounded"></div>
+                </div>
 
-  {/* Text Side */}
-  <div className="flex-1 flex items-center px-9">
-    <p className="text-gray-600 text-[19px] leading-relaxed">
-      To redefine fabric care and personal luxury in Qatar through
-      innovation, fragrance, and flawless service — making Akoya Premium
-      Laundry the symbol of elegance and trust in every home.
-    </p>
-  </div>
+                <div className="bg-white w-full max-w-4xl mx-auto mt-10 sm:mt-14 rounded-2xl shadow-xl flex flex-col sm:flex-row overflow-hidden">
 
-</div>
-</section>
-<div className="w-full bg-[#F6F7F9] py-20 px-6">
-  <div className="max-w-7xl lg:grid-cols-2 gap-12">
+                    {/* Gold Vision Side */}
+                    <div className="bg-[#D0AA31] w-full sm:w-[280px] md:w-[330px] flex items-center justify-center text-white py-8 sm:py-0 flex-shrink-0">
+                        <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center leading-tight">
+                            {t("vision.cardTitle")}
+                        </h3>
+                    </div>
 
-   
-    <div className="w-[380px] h-[600px]">
+                    {/* Text Side */}
+                    <div className="flex-1 flex items-center px-6 sm:px-9 py-6 sm:py-8">
+                        <p className="text-gray-600 text-base sm:text-[19px] leading-relaxed">
+                            {t("vision.text")}
+                        </p>
+                    </div>
 
-      
-      <div className="relative h-[730px] rounded-2xl overflow-hidden shadow-xl">
-        <img
-          src="public/images/ourmission.jpeg"
-          alt="Akoya"
-          className="w-full h-[730px] object-cover"
-        />
-        <div className="absolute inset-0 bg-black/30 flex flex-col justify-end p-8">
-          <h2 className="text-white text-3xl font-semibold">
-            Excellence in Every Detail
-          </h2>
-          <p className="text-white/90 mt-2">
-            Technology, Artistry, and Care
-          </p>
+                </div>
+            </section>
+
+            {/* ── MISSION + VALUES ── */}
+            <div className="w-full bg-[#F6F7F9] py-14 sm:py-20 px-4 sm:px-6">
+                <div className="max-w-7xl mx-auto flex flex-col gap-10 lg:gap-12">
+
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+
+                        {/* LEFT COLUMN — image + CTA */}
+                        <div className="w-full">
+
+                            <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[3/4] lg:aspect-[4/3]">
+                                <img
+                                    src="public/images/ourmission.jpeg"
+                                    alt="Akoya"
+                                    className="w-full h-full object-cover"
+                                />
+                                <div className="absolute inset-0 bg-black/30 flex flex-col justify-end p-6 sm:p-8">
+                                    <h2 className="text-white text-2xl sm:text-3xl font-semibold">
+                                        {t("excellence.heading")}
+                                    </h2>
+                                    <p className="text-white/90 mt-2">
+                                        {t("excellence.subtitle")}
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="bg-[#D4AF37] rounded-2xl py-5 mt-6 flex flex-col gap-4 justify-center items-center text-white shadow-xl">
+                                <h3 className="text-[20px] text-start font-bold">
+                                    {t("cta.heading")}
+                                </h3>
+
+                                <button className="hover:scale-110 transition duration-500 w-[80%] bg-white text-[#D4AF37] py-3 rounded-[10px] font-bold">
+                                    {t("cta.button")}
+                                </button>
+                            </div>
+                        </div>
+
+                        {/* RIGHT COLUMN — mission text + gold panel */}
+                        <div className="bg-white w-full flex flex-col sm:flex-row rounded-2xl shadow-xl overflow-hidden">
+
+                            {/* Mission Section */}
+                            <div className="text-gray-700 p-8 sm:p-10 md:p-14 text-base sm:text-[19px] flex-1">
+                                <p>
+                                    {t("mission.text")}
+                                </p>
+                            </div>
+
+                            <div className="bg-gradient-to-br from-[#0F1B2E] to-[#1E2F4D] flex items-center justify-center px-8 sm:px-10 py-8 sm:py-0 sm:min-w-[220px]">
+                                <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold text-center">
+                                    {t("mission.cardTitle")}
+                                </h2>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    {/* Core Values */}
+                    <div className="bg-white shadow-xl p-6 sm:p-10 md:p-12 rounded-2xl w-full">
+                        <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center mb-8 sm:mb-12">
+                            {t("coreValues.heading")}
+                        </h2>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+
+                            {/* Value Card */}
+                            <div className="flex gap-4 sm:gap-6 border-s-4 border-[#D4AF37] bg-white rounded-2xl p-6 sm:p-8 shadow-md relative">
+                                <div className="w-2 bg-[#D4AF37] rounded-full absolute left-0"></div>
+                                <div className="w-16 sm:w-20 h-12 bg-[#D4AF37] rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <div className="w-3 h-3 bg-white rounded-full"></div>
+                                </div>
+                                <div>
+                                    <h3 className="text-lg sm:text-xl font-semibold mb-2">{t("coreValues.excellence.title")}</h3>
+                                    <p className="text-gray-600 text-sm sm:text-base">
+                                        {t("coreValues.excellence.description")}
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="flex gap-4 sm:gap-6 border-s-4 border-[#D4AF37] bg-white rounded-2xl p-6 sm:p-8 shadow-md relative">
+                                <div className="w-16 sm:w-20 h-12 bg-[#D4AF37] rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <div className="w-3 h-3 bg-white rounded-full"></div>
+                                </div>
+                                <div>
+                                    <h3 className="text-lg sm:text-xl font-semibold mb-2">{t("coreValues.innovation.title")}</h3>
+                                    <p className="text-gray-600 text-sm sm:text-base">
+                                        {t("coreValues.innovation.description")}
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="flex gap-4 sm:gap-6 border-s-4 border-[#D4AF37] bg-white rounded-2xl p-6 sm:p-8 shadow-md relative">
+                                <div className="w-16 sm:w-20 h-12 bg-[#D4AF37] rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <div className="w-3 h-3 bg-white rounded-full"></div>
+                                </div>
+                                <div>
+                                    <h3 className="text-lg sm:text-xl font-semibold mb-2">{t("coreValues.sustainability.title")}</h3>
+                                    <p className="text-gray-600 text-sm sm:text-base">
+                                        {t("coreValues.sustainability.description")}
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="flex gap-4 sm:gap-6 border-s-4 border-[#D4AF37] bg-white rounded-2xl p-6 sm:p-8 shadow-md relative">
+                                <div className="w-16 sm:w-20 h-12 bg-[#D4AF37] rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <div className="w-3 h-3 bg-white rounded-full"></div>
+                                </div>
+                                <div>
+                                    <h3 className="text-lg sm:text-xl font-semibold mb-2">{t("coreValues.customerFocus.title")}</h3>
+                                    <p className="text-gray-600 text-sm sm:text-base">
+                                        {t("coreValues.customerFocus.description")}
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-      </div>
-
-   
-      <div className="bg-[#D4AF37] rounded-2xl py-5  mt-6 flex flex-col gap-4 justify-center items-center text-white shadow-xl">
-        <h3 className="text-[20px] text-start font-bold">
-          Experience Excellence Today
-        </h3>
-
-        <button className="hover:scale-110 transition duration-500  w-[80%] bg-white text-[#D4AF37] py-3 rounded-[10px] font-bold">
-          Book Now
-        </button>
-      </div>
-    </div>
-
-    {/* RIGHT COLUMN */}
-
-    <div>
-    <div className="bg-white w-[790px] flex gap-10 h-[290px] absolute right-[30px] top-[630px] rounded-2xl shadow-xl">
-
-      {/* Mission Section */}
-      
-        <div className="lg:col-span-2 text-gray-700 p-14 text-[19px]">
-          <p>
-            At Akoya Premium Laundry, we strive to offer premium laundry,
-            delivery, and custom perfume solutions that combine technology,
-            artistry, and care. Our mission is to transform daily routines
-            into refined experiences through exceptional service, attention
-            to detail, and sustainable practices.
-          </p>
-        </div>
-
-       <div className="bg-gradient-to-br from-[#0F1B2E] to-[#1E2F4D] rounded-e-2xl flex items-center justify-center
-                w-full -ml-12">
-          <h2 className="text-white px-15 text-5xl font-bold text-center">
-            Our <br /> Mission
-          </h2>
-        </div>
-     
-       </div>
-
-      {/* Core Values */}
-      <div className=" ms-[420px]  bg-white shadow-xl p-12 rounded-2xl w-[800px]">
-      <h2 className="text-4xl font-semibold text-center mb-12">
-        Our Core Values
-      </h2>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-        {/* Value Card */}
-        <div className="flex gap-6 bg-white rounded-2xl p-8 shadow-md relative">
-          <div className="w-2 bg-[#D4AF37] rounded-full absolute left-0 "></div>
-          <div className="w-26 h-12 bg-[#D4AF37] rounded-xl flex items-center justify-center">
-            <div className="w-3 h-3 bg-white rounded-full"></div>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2">Excellence</h3>
-            <p className="text-gray-600">
-              Every item, every wash, every fragrance meets the highest standards.
-            </p>
-          </div>
-        </div>
-
-        <div className="flex gap-6 bg-white rounded-2xl p-8 shadow-md relative">
-          
-          <div className="w-33 h-12 bg-[#D4AF37] rounded-xl flex items-center justify-center">
-            <div className="w-3 h-3 bg-white rounded-full"></div>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2">Innovation</h3>
-            <p className="text-gray-600">
-              We use advanced systems and smart logistics to deliver faster and cleaner results.
-            </p>
-          </div>
-        </div>
-
-        <div className="flex gap-6 bg-white rounded-2xl p-8 shadow-md relative">
-          
-          <div className="w-26 h-12 bg-[#D4AF37] rounded-xl flex items-center justify-center">
-            <div className="w-3 h-3 bg-white rounded-full"></div>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2">Sustainability</h3>
-            <p className="text-gray-600">
-              We commit to eco-friendly methods and responsible operations.
-            </p>
-          </div>
-        </div>
-
-        <div className="flex gap-6 bg-white rounded-2xl p-8 shadow-md relative">
-          
-          <div className="w-16 h-12 bg-[#D4AF37] rounded-xl flex items-center justify-center">
-            <div className="w-3 h-3 bg-white rounded-full"></div>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2">Customer Focus</h3>
-            <p className="text-gray-600">
-              Your satisfaction drives everything we do.
-            </p>
-          </div>
-        </div>
-
-      </div>
-      </div>
-   </div>
-  </div>
-</div>
-  </div>
     )
 }
 

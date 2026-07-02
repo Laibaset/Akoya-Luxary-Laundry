@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "title": "Luxuary Laundry Reimagined",
+    "collection": "AKOYA COLLLECTION",
+    "scheduleButton": "Schedule Your PickUp"
+  },
+  "whyChoose": {
+    "heading": "Why Choose",
+    "brand": "Akoya",
+    "premiumQuality": {
+      "title": "Premium Quality",
+      "description": "We use only the finest eco-friendly detergents and state-of-the-art equipment"
+    },
+    "personalizedService": {
+      "title": "Personalized Service",
+      "description": "We use only the finest eco-friendly detergents and state-of-the-art equipment"
+    },
+    "convenience": {
+      "title": "Convenience",
+      "description": "We use only the finest eco-friendly detergents and state-of-the-art equipment"
+    }
+  },
+  "journey": {
+    "heading": "Our Services Journey",
+    "cardDescription": "Standard or Express wash options to suit your needs",
+    "steps": {
+      "selectWash": "1. Select Wash type",
+      "schedulePickup": "2. Schedule Pickup",
+      "expertCleaning": "3. Expert Cleaning",
+      "fragranceFinish": "4. Fragrance Finish",
+      "carefulPackaging": "5. Careful Packaging",
+      "giftWrapping": "6. Gift Wrapping",
+      "whatsappUpdates": "7. WhatsApp Updates",
+      "aiTracking": "8. AI Tracking"
+    }
+  },
+  "team": {
+    "heading": "Meet Our Fabric Specialists",
+    "description": "Our team of garment care experts brings decades of combined experience in handling luxury fabrics",
+    "members": {
+      "ahmed": {
+        "name": "Ahmed Al-Mansoori",
+        "role": "Head of Couture Care",
+        "bio": "20+ years in luxury garment care"
+      },
+      "layla": {
+        "name": "Layla Hassan",
+        "role": "Fabric Technology Expert",
+        "bio": "Fabric scientist and preservation expert"
+      },
+      "yousef": {
+        "name": "Yousef Ibrahim",
+        "role": "Operations Director",
+        "bio": "Ensuring seamless service delivery"
+      }
+    }
+  }
+}

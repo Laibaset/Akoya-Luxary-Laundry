@@ -1,0 +1,22 @@
+{
+  "brandDescription": "لگژری ملبوسات کی دیکھ بھال کا نیا معیار۔ دوحہ کے باذوق صارفین کو بے مثال معیار اور خدمات کے ساتھ خدمت فراہم کرنا۔",
+  "servicesHeading": "ہماری خدمات",
+  "services": {
+    "premiumLaundry": "پریمیم لانڈری",
+    "dryCleaning": "ڈرائی کلیننگ",
+    "steamPressing": "اسٹیم پریسنگ",
+    "fragranceInfusion": "خوشبو انفیوژن",
+    "coutureCare": "کوتیر کیئر",
+    "vipClub": "وی آئی پی کلب"
+  },
+  "contactHeading": "ہم سے رابطہ کریں",
+  "contact": {
+    "address": "ویسٹ بے، دوحہ، قطر",
+    "phone": "+974 3368 9993",
+    "email": "Akoyaluxurylaundry@gmail.com"
+  },
+  "newsletterHeading": "نیوز لیٹر",
+  "newsletterDescription": "خصوصی پیشکشوں اور ملبوسات کی دیکھ بھال کے مشوروں کے لیے سبسکرائب کریں۔",
+  "emailPlaceholder": "آپ کا ای میل ایڈریس",
+  "subscribeButton": "سبسکرائب کریں"
+}

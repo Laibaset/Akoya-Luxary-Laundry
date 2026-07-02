@@ -8,11 +8,14 @@ import 'swiper/css/pagination';
 import { Autoplay } from 'swiper/modules';
 import { CiLocationOn, CiMail } from "react-icons/ci";
 import { FaPhoneAlt, FaInstagram, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation("Contacttranslation");
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Message sent!");
+    alert(t("form.successAlert"));
   };
 
   return (
@@ -40,25 +43,25 @@ const Contact = () => {
       <SwiperSlide className=''><img className='h-[600px] w-[100%] bg-black z-0' src="/Images/platinumCare.jpg" alt="" /> 
       <div class="absolute inset-0 bg-gradient-to-r from-[#1C1C1C]/80 via-[#1C1C1C]/40 to-[#1C1C1C]/10"></div>
       <div className='absolute top-40 z-20 left-25 '>
-      <p className='text-6xl text-white font-sans font-light'> Premium Garment Care</p>
-      <p className='text-2xl text-[#D4AF37] mt-5'>Expert Cleaning for your most delicate fabrics</p>
-      <button className='text-[18px] mt-7 bg-[#D4AF37] rounded-4xl px-7 py-3'>Schdeule Pickup</button>
+      <p className='text-6xl text-white font-sans font-light'> {t("slides.slide1.title")}</p>
+      <p className='text-2xl text-[#D4AF37] mt-5'>{t("slides.slide1.subtitle")}</p>
+      <button className='text-[18px] mt-7 bg-[#D4AF37] rounded-4xl px-7 py-3'>{t("slides.slide1.button")}</button>
      </div>
      </SwiperSlide>
       <SwiperSlide><img className='h-[600px] w-[100%] z-0' src="/Images/eco.jpg" alt="" />
       <div class="absolute inset-0 bg-gradient-to-r from-[#1C1C1C]/80 via-[#1C1C1C]/40 to-[#1C1C1C]/10"></div>
        <div className='absolute top-40 z-20 left-25 '>
-      <p className='text-6xl text-white font-sans font-light'> Eco Conscious Cleaning</p>
-      <p className='text-2xl text-[#D4AF37] mt-5'>Sustainable methods without compromising quality</p>
-      <button className='text-[18px] mt-7 bg-[#D4AF37] rounded-4xl px-7 py-3'>Schdeule Pickup</button>
+      <p className='text-6xl text-white font-sans font-light'> {t("slides.slide2.title")}</p>
+      <p className='text-2xl text-[#D4AF37] mt-5'>{t("slides.slide2.subtitle")}</p>
+      <button className='text-[18px] mt-7 bg-[#D4AF37] rounded-4xl px-7 py-3'>{t("slides.slide2.button")}</button>
      </div>
       </SwiperSlide>
       <SwiperSlide ><img className='h-[600px] w-[100%] z-0' src="/Images/pressing.jpg" alt="" />
       <div class="absolute inset-0 bg-gradient-to-r from-[#1C1C1C]/80 via-[#1C1C1C]/40 to-[#1C1C1C]/10"></div>
        <div className='absolute top-40 z-20 left-25 '>
-      <p className='text-6xl text-white font-sans font-light'> Prcision Pressing</p>
-      <p className='text-2xl text-[#D4AF37] mt-5'>Impeccable finishes for business and formal wear</p>
-      <button className='text-[18px] mt-7 bg-[#D4AF37] rounded-4xl px-7 py-3'>Schdeule Pickup</button>
+      <p className='text-6xl text-white font-sans font-light'> {t("slides.slide3.title")}</p>
+      <p className='text-2xl text-[#D4AF37] mt-5'>{t("slides.slide3.subtitle")}</p>
+      <button className='text-[18px] mt-7 bg-[#D4AF37] rounded-4xl px-7 py-3'>{t("slides.slide3.button")}</button>
      </div>
       </SwiperSlide>
     </Swiper>
@@ -70,11 +73,10 @@ const Contact = () => {
 
         {/* LEFT SIDE */}
         <div>
-          <h2 className="text-2xl font-semibold mb-6">How to reach us</h2>
+          <h2 className="text-2xl font-semibold mb-6">{t("contactInfo.heading")}</h2>
 
           <p className="text-gray-600 max-w-md mb-12">
-            Our concierge team is available to assist you with any inquiries
-            about our luxury laundry services.
+            {t("contactInfo.description")}
           </p>
 
           <div className="flex items-start gap-4 mb-6">
@@ -82,8 +84,8 @@ const Contact = () => {
               <CiLocationOn className="text-[#D4AF37] text-2xl" />
             </div>
             <div>
-              <p className="font-semibold">Location</p>
-              <p className="text-gray-600">West Bay, Doha, Qatar</p>
+              <p className="font-semibold">{t("contactInfo.location.label")}</p>
+              <p className="text-gray-600">{t("contactInfo.location.value")}</p>
             </div>
           </div>
 
@@ -92,8 +94,8 @@ const Contact = () => {
               <FaPhoneAlt className="text-[#D4AF37] text-2xl" />
             </div>
             <div>
-              <p className="font-semibold">Phone</p>
-              <p className="text-gray-600">+974 1234 5678</p>
+              <p className="font-semibold">{t("contactInfo.phone.label")}</p>
+              <p className="text-gray-600">{t("contactInfo.phone.value")}</p>
             </div>
           </div>
 
@@ -102,12 +104,12 @@ const Contact = () => {
               <CiMail className="text-[#D4AF37] text-2xl" />
             </div>
             <div>
-              <p className="font-semibold">Email</p>
-              <p className="text-gray-600">info@akoyalaundry.com</p>
+              <p className="font-semibold">{t("contactInfo.email.label")}</p>
+              <p className="text-gray-600">{t("contactInfo.email.value")}</p>
             </div>
           </div>
 
-          <p className="font-semibold mb-4">Follow Us</p>
+          <p className="font-semibold mb-4">{t("contactInfo.followUs")}</p>
           <div className="flex gap-4">
             <div className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center">
               <FaInstagram />
@@ -124,25 +126,25 @@ const Contact = () => {
         {/* FORM */}
         <div className="flex items-center justify-center p-6">
           <div className="w-full max-w-2xl bg-white rounded-2xl p-10 shadow-sm">
-            <h2 className="text-2xl font-semibold mb-8">Send us a message</h2>
+            <h2 className="text-2xl font-semibold mb-8">{t("form.heading")}</h2>
 
             <form onSubmit={handleSubmit}>
               <input
                 className="w-full mb-4 px-5 py-4 rounded-xl border bg-[#FAFAFA]"
-                placeholder="Full Name"
+                placeholder={t("form.namePlaceholder")}
               />
               <input
                 className="w-full mb-4 px-5 py-4 rounded-xl border bg-[#FAFAFA]"
-                placeholder="Email"
+                placeholder={t("form.emailPlaceholder")}
               />
               <textarea
                 rows="6"
                 className="w-full mb-6 px-5 py-4 rounded-xl border bg-[#FAFAFA]"
-                placeholder="Message"
+                placeholder={t("form.messagePlaceholder")}
               ></textarea>
 
               <button className="w-full bg-black text-white py-4 rounded-xl">
-                Send Message
+                {t("form.sendButton")}
               </button>
             </form>
           </div>

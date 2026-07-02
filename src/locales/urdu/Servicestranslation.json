@@ -1,0 +1,62 @@
+{
+  "slides": {
+    "slide1": {
+      "title": "پریمیم ملبوسات کی دیکھ بھال",
+      "subtitle": "آکویا کا فرق محسوس کریں"
+    },
+    "slide2": {
+      "title": "لگژری لانڈری خدمات",
+      "subtitle": "سب سے باذوق صارفین کے لیے"
+    },
+    "slide3": {
+      "title": "درست فیبرک کیئر",
+      "subtitle": "آپ کے ملبوسات کی ضروریات کے مطابق"
+    }
+  },
+  "bookCollectionButton": "کلیکشن بک کریں",
+  "sectionHeading": "ہماری خدمات",
+  "sectionSubheading": "ہماری لگژری ملبوسات کی دیکھ بھال",
+  "categories": {
+    "all": "تمام",
+    "dryCleaning": "ڈرائی کلیننگ",
+    "pressing": "پریسنگ",
+    "specialty": "خصوصی",
+    "traditional": "روایتی",
+    "express": "ایکسپریس",
+    "addOn": "اضافی سہولت"
+  },
+  "products": {
+    "commonSubtitle": "آکویا کا فرق محسوس کریں",
+    "commonPrice": "3 ریال سے شروع",
+    "dryCleaning": { "title": "ڈرائی کلیننگ" },
+    "executivePressing": { "title": "ایگزیکٹو پریسنگ" },
+    "coutureCare": { "title": "کوتیر کیئر" },
+    "bishtRestoration": { "title": "بشت کی بحالی" },
+    "expressService": { "title": "ایکسپریس سروس" },
+    "fragranceInfusion": { "title": "خوشبو انفیوژن" },
+    "dishdasha": { "title": "دشداشہ" },
+    "childDishdasha": { "title": "بچوں کا دشداشہ" },
+    "bisht": { "title": "بشت" },
+    "ghutra": { "title": "غترہ" },
+    "kurta": { "title": "کرتا" },
+    "kurtaPyjama": { "title": "کرتا پاجامہ (سیٹ)" },
+    "kameez": { "title": "قمیض" },
+    "jalabiya": { "title": "جلابیہ" },
+    "abaya": { "title": "عبایا" },
+    "abayaSpecial": { "title": "خصوصی عبایا" },
+    "hijab": { "title": "حجاب" },
+    "gentSuit": { "title": "مردانہ سوٹ" },
+    "dressShort": { "title": "ڈریس (مختصر)" },
+    "dressLong": { "title": "ڈریس (لمبی)" },
+    "overcoat": { "title": "اوورکوٹ" },
+    "militaryUniform": { "title": "فوجی وردی" },
+    "blouseSpecial": { "title": "خصوصی بلاؤز" },
+    "bathrobe": { "title": "باتھ روب" }
+  },
+  "orderButton": "آرڈر کریں",
+  "concierge": {
+    "heading": "ذاتی نوعیت کی خدمت درکار ہے؟",
+    "description": "ہماری وی آئی پی کنسیئرج ٹیم خصوصی درخواستوں، نازک اشیاء یا کاروباروں اور رہائش گاہوں کے بلک آرڈرز کو سنبھالنے کے لیے 24/7 دستیاب ہے۔",
+    "button": "کنسیئرج سے رابطہ کریں"
+  }
+}
