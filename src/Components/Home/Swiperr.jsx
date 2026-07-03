@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./Swiper.css";
-
+//Dep
 const Swiperr = () => {
   const { t, i18n: i18nInstance } = useTranslation("Swipertranslation");
   const isRtl = i18nInstance.language === "ur";
