@@ -4,10 +4,10 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-import "Swiper/css";
+import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "./swiper.css";
+import "./Swiper.css";
 
 const Swiperr = () => {
   const { t, i18n: i18nInstance } = useTranslation("Swipertranslation");
