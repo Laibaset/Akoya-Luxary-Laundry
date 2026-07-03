@@ -14,6 +14,12 @@ import { useTranslation } from "react-i18next";
 const About = () => {
     const { t } = useTranslation("Abouttranslation");
 
+    console.log("Team image paths:", [
+        "/images/pexels-photo-769772.webp",
+        "/images/pexels-photo-3763188.webp",
+        "/images/pexels-photo-3785077.webp"
+    ]);
+
     return (
         <div>
             {/* Hero Section */}
@@ -105,7 +111,7 @@ const About = () => {
                 <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto px-6">
                     <div className="bg-[#F8F5F2] rounded-2xl py-10 px-6 text-center">
                         <img
-                            src="/images/pexels-photo-769772.webp"
+                            src="/Images/pexels-photo-769772.webp"
                             alt="Ahmed Al-Mansoori"
                             className="w-32 h-32 mx-auto rounded-full border-4 border-[#D4AF37] object-cover"
                         />
@@ -116,7 +122,7 @@ const About = () => {
 
                     <div className="bg-[#F8F5F2] rounded-2xl py-10 px-6 text-center">
                         <img
-                            src="/images/pexels-photo-3763188.webp"
+                            src="/Images/pexels-photo-3763188.webp"
                             alt="Layla Hassan"
                             className="w-32 h-32 mx-auto rounded-full border-4 border-[#D4AF37] object-cover"
                         />
@@ -127,7 +133,7 @@ const About = () => {
 
                     <div className="bg-[#F8F5F2] rounded-2xl py-10 px-6 text-center">
                         <img
-                            src="/images/pexels-photo-3785077.webp"
+                            src="/Images/pexels-photo-3785077.webp"
                             alt="Yousef Ibrahim"
                             className="w-32 h-32 mx-auto rounded-full border-4 border-[#D4AF37] object-cover"
                         />

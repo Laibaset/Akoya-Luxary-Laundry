@@ -55,7 +55,7 @@ const Visionandmission = () => {
 
                             <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[3/4] lg:aspect-[4/3]">
                                 <img
-                                    src="/images/ourmission.jpeg"
+                                    src="/Images/ourmission.jpeg"
                                     alt="Akoya"
                                     className="w-full h-full object-cover"
                                 />
