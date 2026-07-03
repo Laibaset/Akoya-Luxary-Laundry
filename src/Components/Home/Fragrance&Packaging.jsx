@@ -45,7 +45,7 @@ const Landpag = () => {
           <div className="hover:scale-105 transition duration-700 h-[430px] w-[260px] bg-white rounded-2xl shadow-lg overflow-hidden shrink-0">
             <img
               className="w-full h-48 object-cover"
-              src="/public/Images/maknoun.jpg"
+              src="/Images/maknoun.jpg"
               alt="Fragrance"
             />
             <div className="p-4">
@@ -77,7 +77,7 @@ const Landpag = () => {
           <div className="hover:scale-105 transition duration-700 h-[430px] w-[260px] bg-white rounded-2xl shadow-lg overflow-hidden shrink-0">
             <img
               className="w-full h-48 object-cover"
-              src="/public/Images/mad.jpg"
+              src="/Images/mad.jpg"
               alt="Fragrance"
             />
             <div className="p-4">
@@ -106,7 +106,7 @@ const Landpag = () => {
           <div className="hover:scale-105 transition duration-700 h-[430px] w-[260px] bg-white rounded-2xl shadow-lg overflow-hidden shrink-0">
             <img
               className="w-full h-48 object-cover"
-              src="/public/Images/lulwa.jpg"
+              src="/Images/lulwa.jpg"
               alt="Fragrance"
             />
             <div className="p-4">
@@ -134,7 +134,7 @@ const Landpag = () => {
           <div className="hover:scale-105 transition duration-700 h-[430px] w-[260px] bg-white rounded-2xl shadow-lg overflow-hidden shrink-0">
             <img
               className="w-full h-48 object-cover"
-              src="/public/Images/sadf.jpg"
+              src="/Images/sadf.jpg"
               alt="Fragrance"
             />
             <div className="p-4">

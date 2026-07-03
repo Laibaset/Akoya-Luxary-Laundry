@@ -18,7 +18,7 @@ const LandingP = () => {
           {/* LEFT IMAGE CARD */}
           <div className="h-[400px] sm:h-[450px] lg:h-[500px] w-full sm:w-[420px] lg:w-[520px] relative rounded-2xl">
             <img
-              src="/public/Images/aquaClub.jpg"
+              src="/Images/aquaClub.jpg"
               alt="Akoya Club"
               className="w-full h-full object-cover rounded-2xl"
             />

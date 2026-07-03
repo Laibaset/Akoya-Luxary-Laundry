@@ -43,7 +43,7 @@ const LP = () => {
             <div className="relative transition-transform duration-500 hover:-translate-y-2 w-full sm:w-[320px] max-w-[320px]">
               <img
                 className="h-[300px] w-full z-0 rounded-2xl object-cover"
-                src="/public/Images/platinumCare.jpg"
+                src="/Images/platinumCare.jpg"
                 alt=""
               />
               <div className="absolute left-0 top-0 h-full w-full rounded-2xl bg-gradient-to-r from-[#1C1C1C]/40 via-[#1C1C1C]/40 to-[#1C1C1C]/10"></div>
@@ -78,7 +78,7 @@ const LP = () => {
             <div className="relative transition-transform duration-500 hover:-translate-y-2 w-full sm:w-[320px] max-w-[320px]">
               <img
                 className="h-[300px] w-full z-0 rounded-2xl object-cover"
-                src="/public/Images/exectiveCollection.jpg"
+                src="/Images/exectiveCollection.jpg"
                 alt=""
               />
               <div className="absolute left-0 top-0 h-full w-full rounded-2xl bg-gradient-to-r from-[#1C1C1C]/40 via-[#1C1C1C]/40 to-[#1C1C1C]/10"></div>
@@ -116,7 +116,7 @@ const LP = () => {
             <div className="relative transition-transform duration-500 hover:-translate-y-2 w-full sm:w-[320px] max-w-[320px]">
               <img
                 className="h-[300px] w-full z-0 rounded-2xl object-cover"
-                src="/public/Images/professionalCollection.jpg"
+                src="/Images/professionalCollection.jpg"
                 alt=""
               />
               <div className="absolute left-0 top-0 h-full w-full rounded-2xl bg-gradient-to-r from-[#1C1C1C]/40 via-[#1C1C1C]/40 to-[#1C1C1C]/10"></div>

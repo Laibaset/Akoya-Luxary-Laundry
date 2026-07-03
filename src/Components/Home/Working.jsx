@@ -157,7 +157,7 @@ const Lapage = () => {
         </div>
 
         <div className="h-[320px] w-[500px] hover:scale-105 transition duration-500 right-20 top-[78%] absolute rounded-2xl bg-amber-800">
-          <img src="/public/Images/luxury.jpg" alt="" className="w-full h-full rounded-2xl"/>
+          <img src="/Images/luxury.jpg" alt="" className="w-full h-full rounded-2xl"/>
         </div>
 
         <div className="relative h-[82%] w-0.5 left-[51%] bg-[#D4AF37] bottom-[23%]"></div>
