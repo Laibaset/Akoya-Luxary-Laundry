@@ -155,7 +155,7 @@ const Landpag = () => {
       </div>
 
       {/* Packaging Section */}
-      <div className="flex flex-col justify-center items-center gap-3 relative top-[-150px]  sm:mt-24 lg:mt-80 px-4 ">
+      <div className="flex flex-col justify-center items-center gap-3 relative top-0 lg:top-[-150px] mt-14 sm:mt-24 lg:mt-80 px-4 ">
         <p className="text-3xl sm:text-4xl lg:text-5xl font-light text-center">{t("packaging.heading")}</p>
         <div className="flex justify-center items-center gap-4">
           <div className="w-[70px] h-[1px] bg-[#D4AF37]"></div>
